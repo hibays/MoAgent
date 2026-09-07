@@ -1,4 +1,5 @@
-
+from .runtime.loop import run_loop
 
 def main() -> None:
-    print("lbl'm cgy and mol father! yes!")
+    print("The MoAgent is running!")
+    run_loop()
