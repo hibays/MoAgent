@@ -1,0 +1,19 @@
+[project]
+name = "moagent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hibays", email = "freestar16@163.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "any-llm-sdk[all]>=1.27.1",
+]
+
+[project.scripts]
+moagent = "moagent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
